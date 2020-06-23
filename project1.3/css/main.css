@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header, footer {
+  background-color: black;
+  color: white;
+  padding: 25px 100px;
+}
+h2 {
+  color: #E06445;
+}
+li {
+  width: 100%;
+  max-width: 100%;
+}     
