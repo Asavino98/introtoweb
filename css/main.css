@@ -9,8 +9,11 @@ body {
 }
 h1 {
   font-family: lavigne-display, sans-serif;
-  font-size: 2em;
-  color: Blue;
+  font-size: 3em;
+  color: white;
+}
+ul {
+  font-size: 1em;
 }
 h2 {
   font-family: lavigne-display, sans-serif;
