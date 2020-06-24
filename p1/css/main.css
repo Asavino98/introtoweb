@@ -5,15 +5,30 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
-header, footer {
-  background-color: black;
+header {
+  background-color: white;
+  color: black;
+  padding: 25px 100px;
+}
+footer {
+  background-color: grey;
   color: white;
   padding: 25px 100px;
 }
+h1 {
+  color: green;
+}
 h2 {
+  text-align: center;
   color: #E06445;
 }
+h3 {
+  text-align: center;
+}
 li {
+  display: inline;
+}
+img {
   width: 100%;
   max-width: 100%;
-}     
+}
