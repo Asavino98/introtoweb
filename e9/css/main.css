@@ -3,21 +3,21 @@
 }
 body {
   margin: 0;
-  background-color: #dddddd;
+  background-color: lightgrey;
 }
 .board {
   width: 800px;
-  margin: 50px auto;
+  margin: calc((100vh - 800px) / 2) auto;
 }
 .red {
   width: 100px;
   height: 100px;
-  background-color: tomato;
+  background-color: red;
   float: left;
 }
 .black {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: white;
   float: left;
 }
