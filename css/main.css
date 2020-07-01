@@ -1,23 +1,46 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 5;
   box-sizing: border-box;
+}
+html {
+  font-size: 20px;
 }
 body {
   font-family: 'DM Sans', sans-serif;
   font-size: 100%;
+  color: white;
+  background-color: tomato;
 }
+
+header {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: tomato;
+}
+
+main {
+  width: 75vw;
+  margin: 25px auto;
+  background-color: tomato;
+  display: flow-root;
+}
+
+.col {
+ width: 50%;
+ background-color: tomato;
+ float: left;
+}
+
 h1 {
   font-family: lavigne-display, sans-serif;
-  font-size: 3em;
+  font-size: 5em;
   color: white;
 }
-ul {
-  font-size: 1em;
-}
+
 h2 {
   font-family: lavigne-display, sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 h3 {
    font family: lavigne-display, sans-serif;
