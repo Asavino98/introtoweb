@@ -6,21 +6,27 @@ Main {
   width: 140vw;
   margin: -20vw;
 }
-.Shape1 {
+.pattern-1 .shape1 {
   width: 100px;
   height: 100px;
   background-color: tomato;
   float: left;
+  margin: -10px;
+  opacity: .75;
 }
-.Shape2 {
+.pattern-1 .Shape2 {
   width: 100px;
   height: 100px;
   background-color: dodgerblue;
   float: left;
+  margin: -10px;
+  opacity: .75;
 }
-.shape3 {
+.pattern-1 .shape3 {
   width: 100px;
   height: 100px;
   background-color: gold;
   float: left;
+  margin: -10px;
+  opacity: .75;
 }

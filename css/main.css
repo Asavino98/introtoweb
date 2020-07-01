@@ -33,13 +33,13 @@ main {
 }
 
 h1 {
-  font-family: lavigne-display, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 5em;
   color: white;
 }
 
 h2 {
-  font-family: lavigne-display, sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2em;
 }
 h3 {
