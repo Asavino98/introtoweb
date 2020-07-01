@@ -9,24 +9,168 @@ Main {
 .pattern-1 .shape1 {
   width: 100px;
   height: 100px;
-  background-color: tomato;
+  background-color: red;
   float: left;
-  margin: -10px;
+  margin: -1px;
   opacity: .75;
 }
 .pattern-1 .Shape2 {
   width: 100px;
   height: 100px;
-  background-color: dodgerblue;
+  background-color: yellow;
   float: left;
-  margin: -10px;
+  margin: -1px;
   opacity: .75;
 }
 .pattern-1 .shape3 {
   width: 100px;
   height: 100px;
-  background-color: gold;
+  background-color: blue;
   float: left;
-  margin: -10px;
+  margin: -1px;
   opacity: .75;
 }
+.pattern-2 .circle1 {
+  width: 200px;
+  height: 200px;
+  shape-outside: circle(100%);
+  clip-path: circle();
+  background-color: red;
+  float: left;
+  margin: -3px;
+}
+.pattern-2 .circle2 {
+  width: 200px;
+  height: 200px;
+  shape-outside: circle(100%);
+  clip-path: circle();
+  background-color: blue;
+  float: left;
+  margin: -3px;
+}
+.pattern-2 .circle3 {
+width: 200px;
+height: 200px;
+shape-outside: circle(100%);
+clip-path: circle();
+background-color: yellow;
+float: left;
+margin: -3px;
+}
+.pattern-2 .circle4 {
+width: 200px;
+height: 200px;
+shape-outside: circle(100%);
+clip-path: circle();
+background-color: green;
+float: left;
+margin: -3px;
+}
+.pattern-2 .circle5 {
+width: 200px;
+height: 200px;
+shape-outside: circle(100%);
+clip-path: circle();
+background-color: orange;
+float: left;
+margin: -3px;
+}
+.pattern-3 .polygon1 {
+  width: 300px;
+  height: 300px;
+  shape-outside: polygon(0 0, 0 300px, 200px 300px);
+  clip-path: polygon(0 0, 0 300px, 200px 300px);
+  background-color: dodgerblue;
+  float: left;
+  margin: -50px;
+}
+.pattern-3 .polygon2 {
+  width: 300px;
+  height: 300px;
+  shape-outside: polygon(0 0, 0 300px, 200px 300px);
+  clip-path: polygon(0 0, 0 300px, 200px 300px);
+  background-color: black;
+  float: left;
+  margin: -50px;
+}
+.pattern-3 .polygon3 {
+  width: 300px;
+  height: 300px;
+  shape-outside: polygon(0 0, 0 300px, 200px 300px);
+  clip-path: polygon(0 0, 0 300px, 200px 300px);
+  background-color: tomato;
+  float: left;
+  margin: -50px;
+}
+.pattern-4 .ellipse1 {
+  width: 150px;
+  height: 300px;
+  float: left;
+  shape-outside: ellipse();
+  clip-path: ellipse();
+  background-color: dodgerblue;
+  float: left;
+  margin: -15px;
+}
+.pattern-4 .ellipse2 {
+  width: 150px;
+  height: 300px;
+  float: left;
+  shape-outside: ellipse();
+  clip-path: ellipse();
+  background-color: mediumseagreen;
+  float: left;
+  margin: -15px;
+  opacity: .75;
+}
+.pattern-4 .ellipse3 {
+  width: 150px;
+  height: 300px;
+  float: left;
+  shape-outside: ellipse();
+  clip-path: ellipse();
+  background-color: violet;
+  float: left;
+  margin: -15px;
+}
+.pattern-4 .ellipse4 {
+  width: 150px;
+  height: 300px;
+  float: left;
+  shape-outside: ellipse();
+  clip-path: ellipse();
+  background-color: slateblue;
+  float: left;
+  margin: -15px;
+  opacity: .75;
+  }
+  .pattern-5 .circle1 {
+    width: 500px;
+    height: 500px;
+    shape-outside: circle(100%);
+    clip-path: circle();
+    background-color: hotpink;
+    float: left;
+    margin: -80px;
+    opacity: .90;
+  }
+  .pattern-5 .circle2 {
+    width: 500px;
+    height: 500px;
+    shape-outside: circle(100%);
+    clip-path: circle();
+    background-color: gold;
+    float: left;
+    margin: -80px;
+    opacity: .50;
+  }
+  .pattern-5 .circle3 {
+  width: 500px;
+  height: 500px;
+  shape-outside: circle(100%);
+  clip-path: circle();
+  background-color: dodgerblue;
+  float: left;
+  margin: -80px;
+  opacity: .75;
+  }
