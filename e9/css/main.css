@@ -17,7 +17,7 @@ body {
 .black {
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: black;
   float: left;
 }
 .header {
