@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+header {
+  background-color: tomato;
+  color: black;
+  padding: 25px 100px;
+}
+footer {
+  background-color: grey;
+  color: white;
+  padding: 25px 100px;
+}
+h1 {
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: black;
+}
+h3 {
+  text-align: center;
+}
+li {
+  display: inline;
+}
+img {
+  width: 30%;
+  max-width: 30%;
+}
