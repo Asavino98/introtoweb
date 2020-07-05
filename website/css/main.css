@@ -18,10 +18,12 @@ footer {
 }
 h1 {
   color: white;
+  font-family: lavigne-display, sans-serif;
 }
 h2 {
   text-align: center;
   color: black;
+  font-family: lavigne-display, sans-serif;
 }
 h3 {
   text-align: center;
