@@ -91,5 +91,10 @@ img {
   }
   h2 {
     font-size: 3em;
-  }  
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1em;
+  }
 }

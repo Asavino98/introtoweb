@@ -49,9 +49,16 @@ h2 {
   color: black;
   font-family: 'lavigne-display', sans-serif;
   font-size: 2em;
+  padding-left: 30px;
 }
 h3 {
   text-align: center;
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+p {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 li {
   display: inline;
@@ -102,4 +109,4 @@ img {
   body {
     background-color: lightblue;
   }
-}  
+}
