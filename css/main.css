@@ -45,3 +45,28 @@ h2 {
 h3 {
    font family: lavigne-display, sans-serif;
    font-size: 1em;
+ }
+ @media screen and (max-width: 1200px) {
+   .col {
+     width: 100%;
+     margin-bottom: 50px;
+     background-color: lightblue;
+  }
+    h1 {
+     font-size: 3em;
+  }
+    body {
+      background-color: lightblue;
+  }
+    header {
+      background-color: lightblue;
+  }
+    main {
+      background-color: lightblue;
+  }
+}
+ @media screen and (max-width: 725px) {
+   h1 {
+    font-size: 2em;
+ }
+}
