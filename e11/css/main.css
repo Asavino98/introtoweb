@@ -70,13 +70,22 @@ li {
   display: inline;
 }
 img {
-  width: 30%;
-  max-width: 30%;
+  width: 35%;
+  max-width: 35%;
+  align-self: auto;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 1165px) {
+  body {
+    background-color: lightblue;
+  }
+  h2 {
+    font-size: 3em;
+ }
 }
 @media screen and (max-width: 800px) {
   body {
@@ -91,7 +100,7 @@ img {
   }
   h2 {
     font-size: 3em;
-  }
+ }
 }
 @media screen and (max-width: 400px) {
   h1 {
@@ -105,5 +114,5 @@ img {
   }
   h4 {
     font-size: 1em;
-  }    
+ }
 }
