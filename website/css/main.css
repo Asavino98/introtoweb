@@ -15,7 +15,7 @@ header {
   display: flex;
   align-items: center;
   color: white;
-  padding: 25px 100px;
+  padding: 25px 15px;
 }
 header * {
   display: inline;
@@ -43,6 +43,7 @@ h1 {
   color: white;
   font-family: 'lavigne-display', sans-serif;
   font-size: 1.5em;
+  padding-left: 30px;
 }
 h2 {
   text-align: center;
@@ -59,6 +60,7 @@ h3 {
 p {
   padding-left: 30px;
   padding-right: 30px;
+  font-size: 1em;
 }
 li {
   display: inline;
@@ -99,11 +101,11 @@ img {
 }
 @media screen and (max-width: 700px) {
   header {
-    padding: 25px 50px;
+    padding: 25px 30px;
   }
 @media screen and (max-width: 635px) {
   header {
-      padding: 25px 30px;
+      padding: 25px 15px;
     }
 @media screen and (max-width: 480px) {
   header {
@@ -114,6 +116,7 @@ img {
  }
  footer {
    padding: 25px 75;
+   font-size: .5em;
 }
  @media screen and (max-width: 350px) {
    img {
@@ -122,6 +125,5 @@ img {
    }
    footer {
      padding: 25px 50px;
-     font-size: .5em
   }
 }
