@@ -110,6 +110,18 @@ img {
       padding: 25px 15px;
   }
   h1 {
-    font-size: .5em;
+    font-size: 1em;
  }
+ footer {
+   padding: 25px 75;
+}
+ @media screen and (max-width: 350px) {
+   img {
+     width: 60%;
+     max-width: 60%;
+     padding-left: 30px;
+   }
+   footer {
+     padding: 25px 50px;
+  }
 }
