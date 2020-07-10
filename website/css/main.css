@@ -119,9 +119,9 @@ img {
    img {
      width: 60%;
      max-width: 60%;
-     padding-left: 30px;
    }
    footer {
      padding: 25px 50px;
+     font-size: .5em
   }
 }
