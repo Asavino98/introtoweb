@@ -125,4 +125,6 @@ img {
    footer {
      padding: 25px 50px;
   }
+  header li a {
+    padding-right:10px
 }
