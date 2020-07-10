@@ -21,7 +21,7 @@ header * {
   display: inline;
 }
 header li {
-  margin: 100px;
+  margin: 80px;
 }
 header li a {
   color: white;
@@ -66,8 +66,8 @@ li {
   display: inline;
 }
 img {
-  width: 30%;
-  max-width: 30%;
+  width: 100%;
+  max-width: 100%;
 }
 .center {
   display: block;
@@ -119,9 +119,8 @@ img {
    font-size: .5em;
 }
  @media screen and (max-width: 350px) {
-   img {
-     width: 60%;
-     max-width: 60%;
+   header {
+       padding: 25px 5px;
    }
    footer {
      padding: 25px 50px;
