@@ -43,6 +43,7 @@ footer {
   right: 0;
   height: 40px;
   display: flex;
+  align-items: center;
   color: white;
 }
 h1 {
@@ -106,11 +107,16 @@ img {
 }
  @media screen and (max-width: 630px) {
    header li a {
-     padding-right:5px
+     padding-right:3px
    }
  }
  @media screen and (max-width: 350px) {
    h1 {
-     font-size: 1em
+     font-size: 1em;
   }
-}     
+  header li a {
+    margin:auto;
+  }
+  footer {
+    font-size: .5em
+}
