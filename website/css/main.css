@@ -11,33 +11,39 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 40px;
   display: flex;
   align-items: center;
   color: white;
-  padding: 25px 15px;
 }
 header * {
   display: inline;
 }
 header li {
-  margin: 80px;
+  margin: auto;
 }
 header li a {
   color: white;
   text-decoration: none;
-  margin: 20px;
+  margin: 10px;
+  font-size: .7em;
+}
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+/* selected link */
+a:active {
+  color: black;
 }
 footer {
   background-color: grey;
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 40px;
   display: flex;
-  align-items: center;
   color: white;
-  padding: 25px 100px;
 }
 h1 {
   color: white;
@@ -51,15 +57,22 @@ h2 {
   font-family: 'lavigne-display', sans-serif;
   font-size: 2em;
   padding-left: 30px;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 25px;
 }
 h3 {
   text-align: center;
   padding-left: 30px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+h4 {
+  text-align: center;
+  padding-left: 30px;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 p {
   padding-left: 30px;
@@ -80,51 +93,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 1270px) {
-  header li a {
-    margin: 5px;
-  }
-  header li {
-    margin: 10px;
-  }
-  h1 {
-    font-size: 1em;
-  }
-}
-@media screen and (max-width: 815px) {
-  header {
-    padding: 25px 75px;
-  }
-  header li a {
-    margin: 2px;
-  }
-  header li {
-    margin: 2px;
-  }
-  h1 {
-    font-size: 1em;
-  }
-}
-@media screen and (max-width: 700px) {
-  header {
-    padding: 25px 30px;
-  }
-@media screen and (max-width: 635px) {
-  header {
-      padding: 25px 15px;
-    }
-@media screen and (max-width: 480px) {
-  header {
-      padding: 25px 15px;
-  }
-  h1 {
-    font-size: 1em;
- }
- footer {
-   padding: 25px 75;
-   font-size: .5em;
-}
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 1380px) {
    header {
        padding: 25px 5px;
    }
@@ -135,3 +104,13 @@ img {
     padding-right:10px
   }
 }
+ @media screen and (max-width: 630px) {
+   header li a {
+     padding-right:5px
+   }
+ }
+ @media screen and (max-width: 350px) {
+   h1 {
+     font-size: 1em
+  }
+}     
