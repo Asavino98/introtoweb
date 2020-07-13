@@ -37,7 +37,7 @@ h1{
 }
 h1 a {
   text-decoration: none;
-}  
+}
 h2{
   font-family: 'lavigne-display', sans-serif;
   text-align: center;
@@ -99,7 +99,7 @@ a:active{
 }
 .headImage{
   width: 100%;
-  height: 35vw;
+  height: 100%;
   float: left;
 }
 img{
@@ -119,10 +119,12 @@ img{
 .texthome{
   display: block;
   width: 100%;
-  height: 50vw;
+  height: 100%;
   background-color: lightgrey;
   overflow: visible;
   float: left;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .textbackground{
   display: block;
@@ -143,7 +145,7 @@ img{
 }
 .imagerow{
   width: 100%;
-  height: 5vw;
+  height: 100%;
   background-color: lightgrey;
   clear: both;
   display: table;
