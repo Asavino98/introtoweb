@@ -190,16 +190,31 @@ footer {
 }
  @media screen and (max-width: 630px) {
    header li a {
-     padding-right:3px
-   }
+     font-size: 1em;
  }
+  .textbackground{
+   width: 100%;
+ }
+   .texthome{
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+  .column{
+    width: 100%;
+ }
+}
  @media screen and (max-width: 400px) {
    h1 {
      font-size: 1em;
   }
   header li a {
-    margin:auto;
+    font-size: .7em;
   }
-  footer {
-    font-size: .5em
+  .texthome{
+    padding-left: 30px;
+    padding-right: 30px
+  }
+  .column{
+    width: 100%;
+  }
 }
