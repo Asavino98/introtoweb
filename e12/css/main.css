@@ -28,7 +28,6 @@ p {
   left: 150px;
   top: 100px;
   padding-top: 5px;
-  animation: color .7s infinite;
 }
 h1 {
   text-align: center;
@@ -130,11 +129,4 @@ h2 {
   left: 500px;
   top: 24px;
   transform: rotate(-130deg);
-}
-.element {
-  animation: color;
-}
-@keyframes color {
-  from {color: green;}
-to {color: white;}
 }
