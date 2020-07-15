@@ -28,6 +28,7 @@ p {
   left: 150px;
   top: 100px;
   padding-top: 5px;
+  animation: color .7s infinite;
 }
 h1 {
   text-align: center;
@@ -75,6 +76,7 @@ h2 {
   position: absolute;
   left: -40px;
   top: 100px;
+  border-bottom: 10px solid #EFB2DE;
 }
 .metal {
   width: 20px;
@@ -128,4 +130,11 @@ h2 {
   left: 500px;
   top: 24px;
   transform: rotate(-130deg);
+}
+.element {
+  animation: color;
+}
+@keyframes color {
+  from {color: green;}
+to {color: white;}
 }
