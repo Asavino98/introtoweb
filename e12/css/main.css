@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)rotate(40deg);
+}
+.pencil {
+  width:  500px;
+  height: 30px;
+  background-color: gold;
+  margin: 100px auto;
+  position: relative;
+  border-top: 10px solid #ffd268;
+  border-bottom: 10px solid #e2af38;
+}
+p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: bold;
+  position: absolute;
+  color: green;
+  left: 150px;
+  top: 100px;
+  padding-top: 5px;
+}
+h1 {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: bold;
+  position: absolute;
+  color: green;
+  left: 50px;
+  top: 100px;
+  padding-top: 8px;
+  transform: rotate(-90deg);
+}
+h2 {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: bold;
+  position: absolute;
+  color: gold;
+  left: 70px;
+  top: 100px;
+  padding-top: 8px;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+.dot {
+  height: 13px;
+  width: 13px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 70px;
+  top: 105px;
+  z-index: 1;
+}
+.eraser {
+  width: 25px;
+  height: 30px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: pink;
+  position: absolute;
+  left: -40px;
+  top: 100px;
+}
+.metal {
+  width: 20px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  border-left: 5px solid gold;
+  left: -20px;
+  top: 100px;
+  z-index: -1;
+}
+.metal2 {
+  width: 20px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  border-left: 5px solid gold;
+  left: -10px;
+  top: 100px;
+  z-index: -1;
+}
+.arrow-right {
+  width: 0;
+ height: 0;
+ border-top: 15px solid transparent;
+ border-bottom: 15px solid transparent;
+ border-left: 40px solid #e29663;
+ position: absolute;
+ left: 500px;
+ top: 100px;
+ z-index: -1;
+}
+.arrow-right2 {
+  width: 0;
+ height: 0;
+ border-top: 15px solid transparent;
+ border-bottom: 15px solid transparent;
+ border-left: 40px solid black;
+ transform: scale(.3);
+ position: absolute;
+ left: 513px;
+ top: 100px;
+ z-index: -1;
+}
+.line {
+  width: .5px;
+  height: 250px;
+  position: absolute;
+  border-radius: 2px;
+  border-left: 2px solid grey;
+  left: 500px;
+  top: 24px;
+  transform: rotate(-130deg);
+}
