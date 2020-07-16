@@ -60,6 +60,19 @@ h2 {
   transform: rotate(-90deg);
   z-index: 2;
 }
+h3 {
+text-align: center;
+font-family: 'DM Sans', sans-serif;
+font-size: 25px;
+line-height: 15px;
+font-weight: bold;
+position: absolute;
+color: green;
+left: -60px;
+top: 235px;
+padding-top: 8px;
+transform: rotate(90deg);
+}
 .dot {
   height: 13px;
   width: 13px;
