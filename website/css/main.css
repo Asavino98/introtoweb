@@ -8,14 +8,10 @@ body {
 }
 header {
   background-color: tomato;
-  height: 3vw;
+  height: 4em;
   display: flex;
   align-items: center;
   color: white;
-}
-footer{
-  padding: 20px 100px;
-  background-color: grey;
 }
 li{
   float: left;
@@ -61,6 +57,7 @@ h3{
 h4{
   font-family: 'DM Sans', sans-serif;
   font-size: 1.2em;
+  text-align: left;
   padding-left: 30px;
   margin-top: 30px;
   margin-bottom: 1px;
@@ -73,7 +70,6 @@ p{
 }
 nav{
   width: 50%;
-  height: 4vw;
   font-family: 'DM Sans', sans-serif;
   font-size: 1em;
   color: white;
@@ -95,9 +91,13 @@ a:hover{
 a:active{
   color: black;
 }
-.header{
+.sitename{
   width: 50%;
-  height: 4vw;
+  background-color: tomato;
+  float: left;
+}
+.header{
+  width: 100%;
   background-color: tomato;
   float: left;
 }
@@ -114,7 +114,6 @@ a:active{
 .headImage{
   width: 100%;
   height: 100%;
-  float: left;
 }
 img{
   display: block;
@@ -129,6 +128,9 @@ img{
   background-color: lightgrey;
   overflow: visible;
   float: left;
+}
+.textalignleft{
+  text-align: left;
 }
 .texthome{
   display: block;
@@ -190,13 +192,8 @@ img{
 /* footer{
   float: left;
 } */
-
-
 footer {
   background-color: grey;
-  top: 0;
-  left: 0;
-  right: 0;
   height: 40px;
   display: flex;
   align-items: center;
@@ -244,6 +241,8 @@ footer {
    width: 100%;
    float: none;
  }
+ .header{
+   width: 50%
 }
  @media screen and (max-width: 400px) {
    h1 {
