@@ -75,6 +75,7 @@ nav{
   color: white;
   background-color: tomato;
   float: left;
+  padding-left: 400px;
 }
 a:link{
   color: white;
@@ -97,7 +98,7 @@ a:active{
   float: left;
 }
 .header{
-  width: 100%;
+  width: 50%;
   background-color: tomato;
   float: left;
 }
@@ -184,6 +185,11 @@ img{
   clear: both;
   display: table;
 }
+.imagesize{
+  width: 60%;
+  padding-top: 15px;
+  padding-left: 30px;
+}
 .column {
   float: left;
   width: 33.33%;
@@ -224,25 +230,34 @@ footer {
      padding-left: 50px;
      padding-right: 50px;
  }
+ .text{
+width: 100%;
+}
+.texthome{
+  padding-left: 5px;
+  padding-right: 5px;
+}
   .column{
     width: 100%;
- }
+}
  .image2{
     width: 100%;
     height: 100%;
-    float: none;
-    padding-top: 850px;
-  }
+}
   .footer{
-    height: 5vw;
-    padding-top: 2px;
- }
+    height: 7vw;
+}
  .textbackground2{
    width: 100%;
+   padding-bottom: 30px;
    float: none;
- }
+}
  .header{
    width: 50%
+}
+  nav {
+    padding-left: 10px;
+  }
 }
  @media screen and (max-width: 400px) {
    h1 {
@@ -257,5 +272,8 @@ footer {
   }
   .column{
     width: 100%;
+  }
+  nav {
+    padding-left: 2px;
   }
 }
