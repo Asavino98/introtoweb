@@ -62,11 +62,27 @@ h4{
   margin-top: 30px;
   margin-bottom: 1px;
 }
+h5{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.2em;
+  color: blue;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 1px;
+}
 p{
   font-family: "DM Sans";
   padding-left: 30px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+.menuborder {
+  border-style: solid;
+  border-color: lightgrey;
+  border-left: 10px;
+  border-right: 10px;
 }
 nav{
   width: 50%;
@@ -110,7 +126,6 @@ a:active{
   font-size: .8em;
   color: white;
   float: left;
-  padding-top: 5px;
 }
 .headImage{
   width: 100%;
@@ -140,27 +155,30 @@ img{
   background-color: lightgrey;
   overflow: visible;
   float: left;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .textbackground{
   display: block;
-  width: 50%;
+  width: 49%;
   background-color: white;
   overflow: visible;
   float: left;
-  padding-left: 15px;
-  Padding-right: 60px;
+  Padding-top: 20px;
+  padding-left: 20px;
+  Padding-right: 20px;
+  padding-bottom: 20px;
 }
 .textbackground2{
   display: block;
-  width: 50%;
+  width: 49%;
   background-color: white;
   overflow: visible;
-  float: left;
-  Padding-top: 90px;
-  padding-left: 30px;
-  Padding-right: 60px;
+  float: right;
+  Padding-top: 20px;
+  padding-left: 20px;
+  Padding-right: 20px;
+  padding-bottom: 20px;
 }
 .image{
   display: block;
@@ -187,7 +205,7 @@ img{
 }
 .imagesize{
   width: 60%;
-  padding-top: 15px;
+  padding-top: 40px;
   padding-left: 30px;
 }
 .column {
@@ -251,6 +269,9 @@ width: 100%;
    width: 100%;
    padding-bottom: 30px;
    float: none;
+}
+.menuborder{
+border: none;
 }
  .header{
    width: 50%
