@@ -252,11 +252,6 @@ footer {
  @media screen and (max-width: 630px) {
    header li a {
      font-size: 1em;
- }
- .textbackground2{
-   width: 100%;
-   padding-right: 35px;
-   padding-left: 6px;
 }
    .texthome{
      padding-left: 50px;
@@ -329,5 +324,8 @@ border: none;
   }
   .column{
     width: 100%;
+  }
+  .image2{
+     margin-top: 375px;
   }
 }
