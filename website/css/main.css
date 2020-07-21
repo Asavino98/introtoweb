@@ -74,7 +74,7 @@ h5{
 }
 h5 span{
   background-color: dodgerblue;
-  padding: 8px;
+  padding: 10px;
 }
 p{
   font-family: "DM Sans";
@@ -236,7 +236,7 @@ footer {
 .padding {
   padding-left: 6px;
   padding-right: 6px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
  @media screen and (max-width: 1380px) {
    header {
@@ -326,6 +326,6 @@ border: none;
     width: 100%;
   }
   .image2{
-     margin-top: 375px;
+     margin-top: 400px;
   }
 }
