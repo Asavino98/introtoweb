@@ -43,7 +43,7 @@ h2{
   text-align: center;
   font-size: 3em;
   padding-left: 30px;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-bottom: 30px;
 }
 h3{
@@ -95,10 +95,11 @@ nav{
   color: white;
   background-color: tomato;
   float: left;
-  padding-left: 400px;
+  padding-left: 390px;
 }
 a:link{
   color: white;
+  text-decoration: none;
 }
 a:visited{
   color: white;
@@ -161,15 +162,16 @@ img{
   float: left;
   padding-left: 200px;
   padding-right: 200px;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 .textbackground{
   display: block;
-  width: 48.3%;
+  width: 48.4%;
   background-color: white;
   overflow: visible;
   float: left;
   Padding-top: 20px;
+  padding-right: 20px;
   padding-bottom: 20px;
   margin-top: 15px;
   margin-left: 15px;
@@ -178,7 +180,7 @@ img{
 }
 .textbackground2{
   display: block;
-  width: 48.3%;
+  width: 48.4%;
   background-color: white;
   overflow: visible;
   float: right;
@@ -279,6 +281,7 @@ width: 100%;
 .textbackground{
   width: 100%;
   padding-bottom:5px;
+  padding-right: 25px;
   margin-left: 0px;
   margin-bottom: 0px;
   float: left;
@@ -286,9 +289,15 @@ width: 100%;
  .textbackground2{
    width: 100%;
    padding-bottom: 0px;
+   padding-right: 25px;
    margin-top: 10px;
    margin-bottom: 0px;
    float: left;
+}
+.imagesize{
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 .menuborder{
 border: none;
@@ -301,9 +310,6 @@ border: none;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 6px;
-}
-  header{
-    height: 5em;
 }
   nav {
     padding-top: 5px;
