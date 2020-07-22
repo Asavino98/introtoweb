@@ -306,10 +306,10 @@ border: none;
    width: 50%
 }
   .padding{
-    padding-top: 6px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
   nav {
     padding-top: 5px;
@@ -333,5 +333,13 @@ border: none;
   }
   .image2{
      margin-top: 440px;
+  }
+  .textbackground{
+    width: 100%;
+    margin: none;    
+  }
+   .textbackground2{
+     width: 100%;
+     margin: none;
   }
 }
