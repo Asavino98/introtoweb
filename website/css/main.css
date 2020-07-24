@@ -153,6 +153,9 @@ img{
   padding-top: 30px;
   padding-right: 300px;
 }
+span {
+font-weight: bold;
+}
 .texthome{
   display: block;
   width: 100%;
