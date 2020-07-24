@@ -260,8 +260,8 @@ footer {
     padding-right: 20px;
 }
   .texthome{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
  }
   .text{
     width: 100%;
@@ -272,6 +272,9 @@ footer {
 }
   .column{
     width: 100%;
+}
+.imagerow{
+  padding-left: 25px;
 }
  .image2{
     width: 100%;
@@ -322,18 +325,21 @@ border: none;
   }
 }
  @media screen and (max-width: 400px) {
-   h1 {
+  h1 {
      font-size: 1em;
   }
   h2 {
     font-size: 2em;
   }
+  p {
+    font-size:1.5em;
+}
   header li a {
     font-size: .7em;
   }
   .texthome{
-    padding-left: 30px;
-    padding-right: 30px
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .column{
     width: 100%;
@@ -351,6 +357,6 @@ border: none;
   }
   .boldtext {
     font-size: 1em;
-    padding-right: 40;
+    padding-right: 20px;
   }
 }
